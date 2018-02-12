@@ -1,0 +1,70 @@
+ body {
+	background-color: black;
+}
+#computer-number {
+	background-color: tan;
+	font-size: 60px;
+	width: 150px;
+	height: 115px; 
+	display: inline-block;
+	/*float: left;*/
+	text-align: center;
+	padding-top: 35px;
+	margin-right: 1000px;
+	margin-left: 95px;
+	margin-bottom: 10px;
+}
+img {
+	width: 150px;
+	height: 150px;
+}
+
+
+#title {
+	background-color: tan;
+	height: 100px;
+	width: 500px;
+	margin-bottom: 10px;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#instructions {
+	background-color: tan;
+	width: 320px;
+	height: 320px;
+	font-size: 21px;
+	margin-bottom: 10px;
+	margin-left: 90px;
+}
+
+#your-total-score {
+	background-color: yellow;
+	width: 150px;
+	margin-bottom: 10px;
+}
+#crystal-collector-score {
+	background-color: tan;
+	font-size: 20px;
+	width: 150px;
+	height: 115px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	padding-top: 35px;
+	margin-left: 95px;
+}
+
+.crystal-images {
+	width: 150px;
+	height: 150px;
+}
+
+#score-board {
+	background-color: tan;
+	display:inline-block;
+	margin-left: 95px;
+	height: 50px;
+	width: 100px;
+}
