@@ -1,6 +1,14 @@
- body {
-	background-color: black;
+body {
+width: 80%;
+margin: 0 auto;   
+background-image: url(../images/backgroundImg.jpg);
+/* Photo by David Besh from Pexels */
+background-repeat: no-repeat; 
+background-attachment: scroll;
+background-size: cover;
+color: black;
 }
+
 #computer-number {
 	background-color: tan;
 	font-size: 60px;
