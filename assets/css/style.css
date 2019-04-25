@@ -1,30 +1,35 @@
 body {
-width: 80%;
+width: 55%;
 margin: 0 auto;   
 background-image: url(../images/backgroundImg.jpg);
-/* Photo by David Besh from Pexels */
+/* Photo from Pexels */
 background-repeat: no-repeat; 
 background-attachment: scroll;
 background-size: cover;
 color: black;
 }
 
+/* #mainContent {
+	margin: 0 auto;
+	width: 80%;
+} */
 #computer-number {
 	background-color: tan;
 	font-size: 60px;
 	width: 150px;
 	height: 115px; 
-	display: inline-block;
+	/* display: inline-block; */
 	/*float: left;*/
 	text-align: center;
-	padding-top: 35px;
+	/* padding-top: 35px;
 	margin-right: 1000px;
 	margin-left: 95px;
-	margin-bottom: 10px;
+	margin-bottom: 10px; */
 }
 img {
 	width: 150px;
 	height: 150px;
+	margin: 10px;
 }
 
 
@@ -32,7 +37,7 @@ img {
 	background-color: tan;
 	height: 100px;
 	width: 500px;
-	margin-bottom: 10px;
+	/* margin-bottom: 10px; */
 	font-size: 60px;
 	text-align: center;
 	padding-top: 30px;
@@ -43,25 +48,28 @@ img {
 	width: 320px;
 	height: 320px;
 	font-size: 21px;
+	/* margin: 0 auto; */
 	margin-bottom: 10px;
-	margin-left: 90px;
+	/* margin-left: 90px; */
 }
 
 #your-total-score {
 	background-color: yellow;
 	width: 150px;
+	/* margin: 0 auto; */
 	margin-bottom: 10px;
+	
 }
 #crystal-collector-score {
 	background-color: tan;
 	font-size: 20px;
 	width: 150px;
 	height: 115px;
-	display: inline-block;
-	float: left;
+	/* display: inline-block; */
+	/* float: n; */
 	text-align: center;
 	padding-top: 35px;
-	margin-left: 95px;
+	/* margin-left: 95px; */
 }
 
 .crystal-images {
@@ -71,7 +79,7 @@ img {
 
 #score-board {
 	background-color: tan;
-	display:inline-block;
+	/* display:inline-block; */
 	margin-left: 95px;
 	height: 50px;
 	width: 100px;

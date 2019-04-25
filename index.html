@@ -11,50 +11,31 @@
   crossorigin="anonymous"></script> 
   </head>
   <body>
-    <!-- //need random number for the "computer-number" -->
    
-    <div id="title">Crytsal Collector</div>
-    <div id="instructions">
-      <p>-You will be given a random number at the start of the game.</p>
-      <p>-There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-      <p>-You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</p>
-      <p>-The value of each crystal is hidden from you until you click on it.</p>
-      <p>-Each time when the game starts, the game will change the values of each crystal.</p>
-    </div>
-    <div id="computer-number"></div>
-    <div id="score-board">
-      <div id="wins">Wins: 0</div>
-      <div id="losses">Losses: 0</div>
-    </div>
-
-    
-
-
-  <div id="images"></div>
-  <!--   <img class="crystal" src="assets/images/blue-crystal.jpg">
-    <img class="crystal" src="assets/images/green-crystal.jpg">
-    <img class="crystal" src="assets/images/purple-crystal.jpg">
-    <img class="crystal" src="assets/images/yellow-crystal.jpg"> -->
-
-    
-   
-     
-    <div id="crystal-collector-score">
-      <div>Your total score: <span id="tally">0</span><div>
-    </div>
+    <section id = "mainContent">
+      <div id="title">Crytsal Collector</div>
       
+      <div id="instructions">
+        You will be given a random number at the start of the game.  There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.  You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number. The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal.
+      </div>
+      
+      <div id="computer-number"></div>
+      
+      <div id="score-board">
+        <div id="wins">Wins: 0</div>
+        <div id="losses">Losses: 0</div>
+      </div>
 
-  <!--//Pseudocode.
-  
-  //display "computer-number" in DOM(visual representation)
-  
-  	//  -->
+      <div id="images"></div>
+     
+      <div id="crystal-collector-score">
+        <div>Your total score: <span id="tally">0</span><div>
+      </div>
+      
+    </section>
 
-<script type="text/javascript" src="assets/javascript/game.js"></script> 
-<script
-  src="http://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script> 
+    <script type="text/javascript" src="assets/javascript/game.js"></script> 
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
 
   </body>
 </html>
