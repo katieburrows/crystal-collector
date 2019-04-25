@@ -3,12 +3,9 @@ var losses = 0;
 var tally = 0;
 var goal = Math.floor(Math.random() * 101);
 
-$("#computer-number").html(goal);
+$("#computer-number").text("Target number: " + goal);
 var crystals = ["assets/images/blue-crystal.jpg", "assets/images/green-crystal.jpg", "assets/images/purple-crystal.jpg", "assets/images/yellow-crystal.jpg"]
 
-// for (var i = 0; i < crystals.length; i++) {
-// 	var images = $("<img>")
-// }
 
 
 	for (var i = 0; i < crystals.length; i++) {

@@ -12,10 +12,11 @@ text-align: center;
 
 #computer-number {
 	background-color: tan;
-	font-size: 60px;
+	font-size: 33px;
 	width: 150px;
 	height: 115px; 
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 img {
@@ -43,35 +44,41 @@ img {
 	margin-bottom: 10px;
 	padding: 15px;
 }
-
-#your-total-score {
-	background-color: yellow;
-	width: 150px;
-	/* margin: 0 auto; */
-	margin-bottom: 10px;
-	
-}
 #crystal-collector-score {
 	background-color: tan;
 	font-size: 20px;
 	width: 150px;
 	height: 115px;
-	/* display: inline-block; */
-	/* float: n; */
+	/* float: left; */
+	display: inline-block;
 	text-align: center;
 	padding-top: 35px;
-	/* margin-left: 95px; */
 }
 
-.crystal-images {
+#your-total-score {
+	background-color: yellow;
 	width: 150px;
-	height: 150px;
+	/* float: left; */
+	display: inline-block;
+	margin-bottom: 10px;
 }
 
 #score-board {
 	background-color: tan;
-	/* display:inline-block; */
-	margin-left: 95px;
+	/* float: left; */
+	/* margin-left: 95px; */
 	height: 50px;
 	width: 100px;
+	display: inline-block;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+	}
+
+.crystal-images {
+	width: 150px;
+	height: 150px;
 }
