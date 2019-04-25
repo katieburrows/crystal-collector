@@ -44,6 +44,9 @@ img {
 	margin-bottom: 10px;
 	padding: 15px;
 }
+#computer-number {
+	display: inline-block;
+}
 #crystal-collector-score {
 	background-color: tan;
 	font-size: 20px;
