@@ -69,8 +69,10 @@ text-align: center;
 	margin-left: 33px;
 }
 footer {
-    width: 100%;
+    width: 1280px;
     background-color: #dd99ff;
     text-align: center;
-    padding: 29px 0px;
+	padding: 29px 0px;
+	margin-left: -397px;
+	font-size: 25px;
 }
