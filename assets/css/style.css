@@ -6,12 +6,12 @@ background-image: url(../images/background2.jpg);
 background-repeat: no-repeat; 
 background-attachment: scroll;
 background-size: cover;
-color: black;
+color: #666666;
 text-align: center;
 }
 
 #title {
-	background-color: tan;
+	background-color: #dd99ff;
 	height: 100px;
 	width: 530px;
 	margin-bottom: 10px;
@@ -21,7 +21,7 @@ text-align: center;
 }
 
 #instructions {
-	background-color: tan;
+	background-color: #dd99ff;
 	width: 500px;
 	font-size: 17px;
 	margin-bottom: 10px;
@@ -29,7 +29,7 @@ text-align: center;
 }
 
 #computer-number {
-	background-color: tan;
+	background-color: #dd99ff;
 	font-size: 33px;
 	width: 150px;
 	height: 115px; 
@@ -39,7 +39,7 @@ text-align: center;
 }
 
 #crystal-collector-score {
-	background-color: tan;
+	background-color: #dd99ff;
 	font-size: 20px;
 	width: 150px;
 	height: 115px;
@@ -56,7 +56,7 @@ text-align: center;
 }
 
 #score-board {
-	background-color: tan;
+	background-color: #dd99ff;
 	height: 50px;
 	width: 100px;
 	display: inline-block;
