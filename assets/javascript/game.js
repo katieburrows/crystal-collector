@@ -1,3 +1,5 @@
+// alert("Hi and welcome!  I am currently polishing the styling so the boxes are a little wonky, but the core functionality is still working.  Enjoy!");
+
 var wins = 0;
 var losses = 0;
 var tally = 0;
@@ -30,7 +32,7 @@ $(document).on("click", ".crystal-images", function(){
     if (tally > goal) {
         setTimeout(function(){
           alert("game over you lose");
-        },1)
+        }, 1)
         reset();
         losses++;
         $("#losses").html("Losses: " + losses);
@@ -60,7 +62,7 @@ function reset() {
   // Resetting tally to 0
   tally = 0;
   // Putting new tally on page
-  $("#tally").html(tally);
+  $("#tally").append(tally);
   // Clear out old crystals from page
   $("#images").empty();
   // Looping through 4 crystals

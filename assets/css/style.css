@@ -30,17 +30,18 @@ text-align: center;
 
 #computer-number {
 	background-color: #dd99ff;
-	font-size: 33px;
+	font-size: 23px;
 	width: 150px;
 	height: 115px; 
 	text-align: center;
 	margin-bottom: 10px;
 	display: inline-block;
+	padding-top: 35px;
 }
 
 #crystal-collector-score {
 	background-color: #dd99ff;
-	font-size: 20px;
+	font-size: 23px;
 	width: 150px;
 	height: 115px;
 	display: inline-block;
