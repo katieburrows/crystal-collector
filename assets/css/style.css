@@ -75,3 +75,9 @@ text-align: center;
 #images {
 	margin-left: 33px;
 }
+footer {
+    width: 100%;
+    background-color: #dd99ff;
+    text-align: center;
+    padding: 29px 0px;
+}
