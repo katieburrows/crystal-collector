@@ -34,6 +34,7 @@ text-align: center;
 	width: 150px;
 	height: 115px; 
 	text-align: center;
+	margin-left: 41px;
 	margin-bottom: 10px;
 	display: inline-block;
 	padding-top: 35px;
@@ -67,4 +68,7 @@ text-align: center;
 	width: 150px;
 	height: 150px;
 	margin: 10px;
+}
+#contianer {
+	width: 500px;
 }
