@@ -62,7 +62,7 @@ function reset() {
   // Resetting tally to 0
   tally = 0;
   // Putting new tally on page
-  $("#tally").append(tally);
+  $("#tally").html(tally);
   // Clear out old crystals from page
   $("#images").empty();
   // Looping through 4 crystals
