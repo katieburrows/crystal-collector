@@ -5,7 +5,8 @@ var losses = 0;
 var tally = 0;
 var goal = Math.floor(Math.random() * 101);
 
-$("#computer-number").append(goal);
+$("#computer-number").append(`Target number: ${goal}`);
+
 var crystals = ["assets/images/blue-crystal.jpg", "assets/images/green-crystal.jpg", "assets/images/white-crystal.jpeg", "assets/images/yellow-crystal.jpg"]
 
 
@@ -13,7 +14,7 @@ var crystals = ["assets/images/blue-crystal.jpg", "assets/images/green-crystal.j
 	for (var i = 0; i < crystals.length; i++) {
   	var newImage = $("<img>")
   	newImage.addClass("crystal-images")
- 	newImage.attr("src", crystals[i])
+ 	  newImage.attr("src", crystals[i])
   	newImage.attr("data-value", Math.floor(Math.random() * 10 + 1))
   	newImage.css({"width": "150px", "height": "150px"})
   	$("#images").append(newImage)
@@ -23,7 +24,6 @@ var crystals = ["assets/images/blue-crystal.jpg", "assets/images/green-crystal.j
 
 
 $(document).on("click", ".crystal-images", function(){
-	console.log("this was clicked")
   var value = parseInt($(this).attr("data-value"))
   tally = tally + value
 
@@ -51,14 +51,14 @@ $(document).on("click", ".crystal-images", function(){
 var myNumber = 10;
 myNumber ++;
 $("#my-button").on('click', function(){
-	console.log("this was clicked")
+
 })
 
 function reset() {
   // Resetting goal to random number
   goal = Math.floor(Math.random() * 101);
   // Putting new goal on page
-  $("#computer-number").html(goal);
+  $("#computer-number").text(`Target number: ${goal}`);
   // Resetting tally to 0
   tally = 0;
   // Putting new tally on page
