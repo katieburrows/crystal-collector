@@ -1,5 +1,3 @@
-alert("Hi and welcome!  I am currently polishing the styling so the boxes are a little wonky, but the core functionality has not been affected.  Enjoy!");
-
 var wins = 0;
 var losses = 0;
 var tally = 0;
