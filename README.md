@@ -1,3 +1,3 @@
-# week-4-game
+# Crystal Collector
 
 live link: https://katieburrows.github.io/crystal-collector/
