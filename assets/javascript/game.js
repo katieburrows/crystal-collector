@@ -6,7 +6,7 @@ var tally = 0;
 var goal = Math.floor(Math.random() * 101);
 
 $("#computer-number").append(goal);
-var crystals = ["assets/images/blue-crystal.jpg", "assets/images/green-crystal.jpg", "assets/images/purple-crystal.jpg", "assets/images/yellow-crystal.jpg"]
+var crystals = ["assets/images/blue-crystal.jpg", "assets/images/green-crystal.jpg", "assets/images/white-crystal.jpeg", "assets/images/yellow-crystal.jpg"]
 
 
 
