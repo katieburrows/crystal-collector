@@ -31,16 +31,20 @@ $(document).on("click", ".crystal-images", function(){
 
     if (tally > goal) {
         setTimeout(function(){
-          alert("game over you lose");
+          alert(`Game over, you lose.  Target score:  ${goal}.  Your score:  ${tally}.`);
         }, 1)
-        reset();
+        setTimeout(function(){
+          reset();
+        }, 1000);
         losses++;
         $("#losses").html("Losses: " + losses);
     } else if (tally == goal){
         setTimeout(function(){
-          alert("you win!");
+          alert(`Game over, you win!!  Target score:  ${goal}.  Your score:  ${tally}.`);
         },1);
-        reset();
+        setTimeout(function(){
+          reset();
+        }, 1000)
         wins++;
         $("#wins").html("Wins: " + wins);
     }
