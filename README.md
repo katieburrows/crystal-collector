@@ -11,9 +11,7 @@ live link: https://katieburrows.github.io/crystal-collector/
 * JavaScript
 * jQuery
 
-## Developer
+## Developed by:
 
-### Katie Burrows 
-
-[Link](https://katieburrows.github.io/portfolio/)
+### Katie Burrows
 
